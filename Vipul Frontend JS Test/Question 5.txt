@@ -1,0 +1,30 @@
+// Question 5
+Support you have a html tag like this 
+<div>Javascript Developer</div>
+Write a small html code to add a class on this div. Add a rounded border box on this div and also there should be a gap of 5px between the text and the rounded box 
+and the text. //
+
+
+
+<html>
+<head>
+<style> 
+#class {
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>border-radius: 25px:</h2>
+<div id="class">
+  <p>Javascript Developer</p>
+</div>
+
+</body>
+</html>
+
